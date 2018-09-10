@@ -1,7 +1,8 @@
 def oxford_comma(array)
   #log and remove last element of the array
-print array.size
+
   last_element = array.last
+  print array.size
   if array.size < 2
     string1 = array.join
   elsif array.size < 3
