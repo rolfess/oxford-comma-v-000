@@ -1,9 +1,9 @@
 def oxford_comma(array)
   #log and remove last element of the array
   last_element = array.last
-  if array.size < 2
+  if array.size < 1
     string1 = array.join
-  elsif array.size < 3
+  elsif array.size < 2
     array.pop
     string1 = array.join(" and ")
     string1 = string1 + last_element
