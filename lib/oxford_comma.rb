@@ -2,6 +2,7 @@ def oxford_comma(array)
   #log and remove last element of the array
 
   last_element = array.last
+  array.pop
   print array.size
   if array.size < 2
     string1 = array.join
